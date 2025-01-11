@@ -397,10 +397,11 @@ align-content: center;
     /* text-align: center; */
     
 }
-.flex-2{
+
+ .flex-2{
     background-color: #006A50;
-    
-}
+ }   
+
 .flex-2:hover{
     background-color: yellow;
     cursor: pointer;
@@ -410,25 +411,20 @@ align-content: center;
     cursor: pointer;
 
 }
-.flex-3{
-    background-color: antiquewhite;
-}
+
+
 .flex-1:hover{
     background-color: aqua;
     cursor: pointer;
 
 }
-.flex-1{
-    background-color: lightseagreen;
-    
-}
+
 .flex-4:hover{
     background-color: tomato;
     cursor: pointer;
 }
-.flex-4{
-    background-color: lightgrey;
-}
+
+
 .input-type{
    
     margin-left: 5%;
@@ -437,9 +433,11 @@ align-content: center;
     width: 1700px;
     text-align: center;
     border-radius: 20px;
+    border-color: #f0ebeb;
+ margin-top: 20px;
 
-    border:none;
     font-size: 25px;
+
 
 }
 .footer{
@@ -470,11 +468,23 @@ align-content: center;
     border:none;
     
 }
-button{
+.sub-btn{
     width: 90px;
     height: 40px;
     border-radius: 15px;
-    background-color: #006A50;
+    background-color: #1c463c;
     color:white;
     border:none;
+}
+
+.donnet-btn{
+    width: 130px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #006A50;
+    border:none;
+    text-align: center;
+    margin-left: 47%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
